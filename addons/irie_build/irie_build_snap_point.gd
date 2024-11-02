@@ -3,26 +3,35 @@ class_name IrieBuildSnapPoint
 extends Node3D
 
 const GROUP_COLORS = {
-	"default": Color(1, 1, 1),  # White
-	"surface": Color(0, 1, 0),  # Green
-	"wall": Color(1, 0, 0),     # Red
-	"floor": Color(0, 0, 1),    # Blue
+	"default": Color.PURPLE,
+	"surface": Color.GREEN,
+	"wall": Color.RED,
+	"floor": Color.BLUE,
 }
 
-const SPHERE_SIZE = 0.06
+const SPHERE_SIZE = 0.04
 const SPHERE_SEGMENTS = 16
 
-var group: String
-var is_surface: bool
+static var _visual_mesh:SphereMesh = _create_visual_mesh()
 
-var _sphere: CSGSphere3D
+static func _create_visual_mesh():
+	var mesh:SphereMesh = SphereMesh.new()
+	mesh.radius = SPHERE_SIZE
+	mesh.height = SPHERE_SIZE * 2
+	mesh.radial_segments = SPHERE_SEGMENTS
+	mesh.rings = SPHERE_SEGMENTS
+	return mesh
+
+@export var group: String:
+	set(value):
+		group = value
+		_create_visual()
+
+var is_surface: bool
 
 static var _materials: Dictionary = {}
 
-func _init(pos: Vector3 = Vector3.ZERO, grp: String = "default", surface: bool = false):
-	position = pos
-	group = grp
-	is_surface = surface
+func _ready():
 	_create_visual()
 
 static func _get_material(group: String) -> StandardMaterial3D:
@@ -36,12 +45,17 @@ static func _get_material(group: String) -> StandardMaterial3D:
 	return _materials[group]
 
 func _create_visual():
-	_sphere = CSGSphere3D.new()
-	_sphere.radius = SPHERE_SIZE
-	_sphere.radial_segments = SPHERE_SEGMENTS
-	_sphere.rings = SPHERE_SEGMENTS / 2
-	_sphere.material = _get_material(group)
-	add_child(_sphere)
+
+	if not is_inside_tree():
+		return
+
+	var visual:MeshInstance3D = IrieBuildUtil.get_child_of_type(self, MeshInstance3D)
+	if not visual:		
+		visual = MeshInstance3D.new()
+		visual.mesh = _visual_mesh
+		add_child(visual)
+
+	visual.material_override = _get_material(group)
 
 func set_visible(value: bool):
 	visible = value

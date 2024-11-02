@@ -227,7 +227,9 @@ func _add_box_snap_points():
 
 func add_snap_point(position: Vector3, group: String = "default"):
 	prints('      add_snap_point', position)
-	var snap_point = IrieBuildSnapPoint.new(position, group)
+	var snap_point = IrieBuildSnapPoint.new()
+	snap_point.position = position
+	snap_point.group = group
 	snap_points_node.add_child(snap_point)
 
 func get_snap_points() -> Array[IrieBuildSnapPoint]:
