@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dyea6dg3171pj"
+path="res://.godot/imported/border-corner.obj-0d85c0af4e6f2f3145d603eaf0666dbb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/border-corner.obj-0d85c0af4e6f2f3145d603eaf0666dbb.mesh"]
+
+source_file="res://external/kenney_building-kit/Models/OBJ format/border-corner.obj"
+dest_files=["res://.godot/imported/border-corner.obj-0d85c0af4e6f2f3145d603eaf0666dbb.mesh", "res://.godot/imported/border-corner.obj-0d85c0af4e6f2f3145d603eaf0666dbb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

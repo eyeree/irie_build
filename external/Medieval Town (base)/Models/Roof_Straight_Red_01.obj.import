@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://clvxoo7qsxdly"
+path="res://.godot/imported/Roof_Straight_Red_01.obj-714c6551124427e855e662a2379e2dca.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Roof_Straight_Red_01.obj-714c6551124427e855e662a2379e2dca.mesh"]
+
+source_file="res://external/Medieval Town (base)/Models/Roof_Straight_Red_01.obj"
+dest_files=["res://.godot/imported/Roof_Straight_Red_01.obj-714c6551124427e855e662a2379e2dca.mesh", "res://.godot/imported/Roof_Straight_Red_01.obj-714c6551124427e855e662a2379e2dca.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

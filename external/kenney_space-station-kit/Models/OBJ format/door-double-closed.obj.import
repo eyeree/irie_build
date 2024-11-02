@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://taernofirl8c"
+path="res://.godot/imported/door-double-closed.obj-2d239e72fbdb7bed450a9fc443684580.mesh"
+
+[deps]
+
+files=["res://.godot/imported/door-double-closed.obj-2d239e72fbdb7bed450a9fc443684580.mesh"]
+
+source_file="res://external/kenney_space-station-kit/Models/OBJ format/door-double-closed.obj"
+dest_files=["res://.godot/imported/door-double-closed.obj-2d239e72fbdb7bed450a9fc443684580.mesh", "res://.godot/imported/door-double-closed.obj-2d239e72fbdb7bed450a9fc443684580.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

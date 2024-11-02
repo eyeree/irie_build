@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://4tbitassx4c2"
+path="res://.godot/imported/table-display-small.obj-7457b0667e2617b9bf75d9de391a4877.mesh"
+
+[deps]
+
+files=["res://.godot/imported/table-display-small.obj-7457b0667e2617b9bf75d9de391a4877.mesh"]
+
+source_file="res://external/kenney_space-station-kit/Models/OBJ format/table-display-small.obj"
+dest_files=["res://.godot/imported/table-display-small.obj-7457b0667e2617b9bf75d9de391a4877.mesh", "res://.godot/imported/table-display-small.obj-7457b0667e2617b9bf75d9de391a4877.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

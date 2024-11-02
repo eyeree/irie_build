@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://corhwto5xghyt"
+path="res://.godot/imported/Path_Steps_Grass_Edge_Top.obj-b9a356d161410b88987395c2d8508e3b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Path_Steps_Grass_Edge_Top.obj-b9a356d161410b88987395c2d8508e3b.mesh"]
+
+source_file="res://external/modular_terrain_collections/Modular Terrain Cliff/Path_Steps_Grass_Edge_Top.obj"
+dest_files=["res://.godot/imported/Path_Steps_Grass_Edge_Top.obj-b9a356d161410b88987395c2d8508e3b.mesh", "res://.godot/imported/Path_Steps_Grass_Edge_Top.obj-b9a356d161410b88987395c2d8508e3b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

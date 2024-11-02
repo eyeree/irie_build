@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://diflht8si48rm"
+path="res://.godot/imported/Roof_Slant_Green_01.obj-4d1df293a8b937dd1f5bb19c7e32b4c0.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Roof_Slant_Green_01.obj-4d1df293a8b937dd1f5bb19c7e32b4c0.mesh"]
+
+source_file="res://external/Medieval Town (base)/Models/Roof_Slant_Green_01.obj"
+dest_files=["res://.godot/imported/Roof_Slant_Green_01.obj-4d1df293a8b937dd1f5bb19c7e32b4c0.mesh", "res://.godot/imported/Roof_Slant_Green_01.obj-4d1df293a8b937dd1f5bb19c7e32b4c0.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

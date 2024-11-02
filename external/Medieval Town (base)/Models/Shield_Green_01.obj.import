@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cgt4a8qlb3alg"
+path="res://.godot/imported/Shield_Green_01.obj-dd7c88ff675214f1c00ce8926bbf9bc0.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Shield_Green_01.obj-dd7c88ff675214f1c00ce8926bbf9bc0.mesh"]
+
+source_file="res://external/Medieval Town (base)/Models/Shield_Green_01.obj"
+dest_files=["res://.godot/imported/Shield_Green_01.obj-dd7c88ff675214f1c00ce8926bbf9bc0.mesh", "res://.godot/imported/Shield_Green_01.obj-dd7c88ff675214f1c00ce8926bbf9bc0.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

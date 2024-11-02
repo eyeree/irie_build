@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dev5c8vsajxvb"]
+
+[ext_resource type="Script" path="res://demo-scenes/main_scene.gd" id="1_26x3n"]
+
+[node name="IrieBuildDemoScene" type="Node3D"]
+script = ExtResource("1_26x3n")

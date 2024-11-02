@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bex10elk1w44x"
+path="res://.godot/imported/bed-double-cover.obj-3af2561fb81eabc3969c70a2034f2d7b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bed-double-cover.obj-3af2561fb81eabc3969c70a2034f2d7b.mesh"]
+
+source_file="res://external/kenney_space-station-kit/Models/OBJ format/bed-double-cover.obj"
+dest_files=["res://.godot/imported/bed-double-cover.obj-3af2561fb81eabc3969c70a2034f2d7b.mesh", "res://.godot/imported/bed-double-cover.obj-3af2561fb81eabc3969c70a2034f2d7b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

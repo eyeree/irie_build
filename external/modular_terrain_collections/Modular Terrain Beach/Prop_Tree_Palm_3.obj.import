@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bmgs8p7kmbp0s"
+path="res://.godot/imported/Prop_Tree_Palm_3.obj-98fc625bcdc5fb06160e47dddbe8865b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Prop_Tree_Palm_3.obj-98fc625bcdc5fb06160e47dddbe8865b.mesh"]
+
+source_file="res://external/modular_terrain_collections/Modular Terrain Beach/Prop_Tree_Palm_3.obj"
+dest_files=["res://.godot/imported/Prop_Tree_Palm_3.obj-98fc625bcdc5fb06160e47dddbe8865b.mesh", "res://.godot/imported/Prop_Tree_Palm_3.obj-98fc625bcdc5fb06160e47dddbe8865b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://l1vdushj8x5x"
+path="res://.godot/imported/wall-door.obj-08510dce74003ea019ac2a9fc6e65528.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wall-door.obj-08510dce74003ea019ac2a9fc6e65528.mesh"]
+
+source_file="res://external/kenney_space-station-kit/Models/OBJ format/wall-door.obj"
+dest_files=["res://.godot/imported/wall-door.obj-08510dce74003ea019ac2a9fc6e65528.mesh", "res://.godot/imported/wall-door.obj-08510dce74003ea019ac2a9fc6e65528.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

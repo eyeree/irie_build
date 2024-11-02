@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://r11xb61d05gu"
+path="res://.godot/imported/Grey_Triangle_01.obj-1b18b625d4a13c20bd5c05416ab346df.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Grey_Triangle_01.obj-1b18b625d4a13c20bd5c05416ab346df.mesh"]
+
+source_file="res://external/Medieval Town (base)/Models/Grey_Triangle_01.obj"
+dest_files=["res://.godot/imported/Grey_Triangle_01.obj-1b18b625d4a13c20bd5c05416ab346df.mesh", "res://.godot/imported/Grey_Triangle_01.obj-1b18b625d4a13c20bd5c05416ab346df.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://8tu6cnt34sgr"
+path="res://.godot/imported/Grey_Window_Square_Sill_01.obj-1bb288e238a4216b6f15164d268cbe8c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Grey_Window_Square_Sill_01.obj-1bb288e238a4216b6f15164d268cbe8c.mesh"]
+
+source_file="res://external/Medieval Town (base)/Models/Grey_Window_Square_Sill_01.obj"
+dest_files=["res://.godot/imported/Grey_Window_Square_Sill_01.obj-1bb288e238a4216b6f15164d268cbe8c.mesh", "res://.godot/imported/Grey_Window_Square_Sill_01.obj-1bb288e238a4216b6f15164d268cbe8c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bh6j2b4r6vufe"
+path="res://.godot/imported/stairs-handrail-single.obj-44bbf63ea154958913c1790b3ad514e3.mesh"
+
+[deps]
+
+files=["res://.godot/imported/stairs-handrail-single.obj-44bbf63ea154958913c1790b3ad514e3.mesh"]
+
+source_file="res://external/kenney_space-station-kit/Models/OBJ format/stairs-handrail-single.obj"
+dest_files=["res://.godot/imported/stairs-handrail-single.obj-44bbf63ea154958913c1790b3ad514e3.mesh", "res://.godot/imported/stairs-handrail-single.obj-44bbf63ea154958913c1790b3ad514e3.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

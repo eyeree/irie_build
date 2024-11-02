@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cd0116veb1bkr"
+path="res://.godot/imported/Prop_Rock_2.obj-7d6a8fad952bce87086377ca35f6eb0d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Prop_Rock_2.obj-7d6a8fad952bce87086377ca35f6eb0d.mesh"]
+
+source_file="res://external/modular_terrain_collections/Modular Terrain Hilly/Prop_Rock_2.obj"
+dest_files=["res://.godot/imported/Prop_Rock_2.obj-7d6a8fad952bce87086377ca35f6eb0d.mesh", "res://.godot/imported/Prop_Rock_2.obj-7d6a8fad952bce87086377ca35f6eb0d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

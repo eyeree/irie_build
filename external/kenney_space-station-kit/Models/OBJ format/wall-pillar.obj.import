@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://l33r2br421b6"
+path="res://.godot/imported/wall-pillar.obj-0cc81e3a0154e990d0441e927475bc4a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wall-pillar.obj-0cc81e3a0154e990d0441e927475bc4a.mesh"]
+
+source_file="res://external/kenney_space-station-kit/Models/OBJ format/wall-pillar.obj"
+dest_files=["res://.godot/imported/wall-pillar.obj-0cc81e3a0154e990d0441e927475bc4a.mesh", "res://.godot/imported/wall-pillar.obj-0cc81e3a0154e990d0441e927475bc4a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

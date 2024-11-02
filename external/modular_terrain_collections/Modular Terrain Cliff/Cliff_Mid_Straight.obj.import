@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b4egdayxbpetb"
+path="res://.godot/imported/Cliff_Mid_Straight.obj-900aa9e076708af8a531be1367e74dfe.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Cliff_Mid_Straight.obj-900aa9e076708af8a531be1367e74dfe.mesh"]
+
+source_file="res://external/modular_terrain_collections/Modular Terrain Cliff/Cliff_Mid_Straight.obj"
+dest_files=["res://.godot/imported/Cliff_Mid_Straight.obj-900aa9e076708af8a531be1367e74dfe.mesh", "res://.godot/imported/Cliff_Mid_Straight.obj-900aa9e076708af8a531be1367e74dfe.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

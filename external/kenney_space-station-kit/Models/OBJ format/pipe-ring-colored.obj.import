@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ppx1cntwjfs2"
+path="res://.godot/imported/pipe-ring-colored.obj-ff1aaaefb8914b4ed61a214fdd14f2ce.mesh"
+
+[deps]
+
+files=["res://.godot/imported/pipe-ring-colored.obj-ff1aaaefb8914b4ed61a214fdd14f2ce.mesh"]
+
+source_file="res://external/kenney_space-station-kit/Models/OBJ format/pipe-ring-colored.obj"
+dest_files=["res://.godot/imported/pipe-ring-colored.obj-ff1aaaefb8914b4ed61a214fdd14f2ce.mesh", "res://.godot/imported/pipe-ring-colored.obj-ff1aaaefb8914b4ed61a214fdd14f2ce.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

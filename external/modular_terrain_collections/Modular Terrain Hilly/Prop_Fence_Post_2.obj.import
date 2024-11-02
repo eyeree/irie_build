@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://5gtgjcthv4qh"
+path="res://.godot/imported/Prop_Fence_Post_2.obj-381c971baad17dda10d5a37b6e69729c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Prop_Fence_Post_2.obj-381c971baad17dda10d5a37b6e69729c.mesh"]
+
+source_file="res://external/modular_terrain_collections/Modular Terrain Hilly/Prop_Fence_Post_2.obj"
+dest_files=["res://.godot/imported/Prop_Fence_Post_2.obj-381c971baad17dda10d5a37b6e69729c.mesh", "res://.godot/imported/Prop_Fence_Post_2.obj-381c971baad17dda10d5a37b6e69729c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

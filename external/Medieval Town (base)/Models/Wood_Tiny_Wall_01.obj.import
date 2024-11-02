@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bfu71kih0n8rp"
+path="res://.godot/imported/Wood_Tiny_Wall_01.obj-2a812e1853cbe7f37969976c47cb6bcf.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Wood_Tiny_Wall_01.obj-2a812e1853cbe7f37969976c47cb6bcf.mesh"]
+
+source_file="res://external/Medieval Town (base)/Models/Wood_Tiny_Wall_01.obj"
+dest_files=["res://.godot/imported/Wood_Tiny_Wall_01.obj-2a812e1853cbe7f37969976c47cb6bcf.mesh", "res://.godot/imported/Wood_Tiny_Wall_01.obj-2a812e1853cbe7f37969976c47cb6bcf.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

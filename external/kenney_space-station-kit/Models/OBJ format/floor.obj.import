@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://f486undhvhh7"
+path="res://.godot/imported/floor.obj-e957b45df264ae62e8f885e790a13aff.mesh"
+
+[deps]
+
+files=["res://.godot/imported/floor.obj-e957b45df264ae62e8f885e790a13aff.mesh"]
+
+source_file="res://external/kenney_space-station-kit/Models/OBJ format/floor.obj"
+dest_files=["res://.godot/imported/floor.obj-e957b45df264ae62e8f885e790a13aff.mesh", "res://.godot/imported/floor.obj-e957b45df264ae62e8f885e790a13aff.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

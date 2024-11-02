@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c5fa0pu2ta8le"
+path="res://.godot/imported/door-rotate-square-b.obj-1802a3b32e2044a336fe921f9fe9d153.mesh"
+
+[deps]
+
+files=["res://.godot/imported/door-rotate-square-b.obj-1802a3b32e2044a336fe921f9fe9d153.mesh"]
+
+source_file="res://external/kenney_building-kit/Models/OBJ format/door-rotate-square-b.obj"
+dest_files=["res://.godot/imported/door-rotate-square-b.obj-1802a3b32e2044a336fe921f9fe9d153.mesh", "res://.godot/imported/door-rotate-square-b.obj-1802a3b32e2044a336fe921f9fe9d153.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

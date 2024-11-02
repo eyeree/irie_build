@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cp5f7fdqq8pqg"
+path="res://.godot/imported/Prop_Branch_2.obj-612de939c7e05ccee54073789c7d5c8d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Prop_Branch_2.obj-612de939c7e05ccee54073789c7d5c8d.mesh"]
+
+source_file="res://external/modular_terrain_collections/Modular Terrain Hilly/Prop_Branch_2.obj"
+dest_files=["res://.godot/imported/Prop_Branch_2.obj-612de939c7e05ccee54073789c7d5c8d.mesh", "res://.godot/imported/Prop_Branch_2.obj-612de939c7e05ccee54073789c7d5c8d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

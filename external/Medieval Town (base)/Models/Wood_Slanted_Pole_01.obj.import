@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://drogmt1tg8lq"
+path="res://.godot/imported/Wood_Slanted_Pole_01.obj-92e55b19b0a260917a89fcdbac5d964e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Wood_Slanted_Pole_01.obj-92e55b19b0a260917a89fcdbac5d964e.mesh"]
+
+source_file="res://external/Medieval Town (base)/Models/Wood_Slanted_Pole_01.obj"
+dest_files=["res://.godot/imported/Wood_Slanted_Pole_01.obj-92e55b19b0a260917a89fcdbac5d964e.mesh", "res://.godot/imported/Wood_Slanted_Pole_01.obj-92e55b19b0a260917a89fcdbac5d964e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

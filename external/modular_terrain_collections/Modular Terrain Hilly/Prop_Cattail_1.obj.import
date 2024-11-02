@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cmlojkifv470g"
+path="res://.godot/imported/Prop_Cattail_1.obj-4911e994171db7fe56ad782a5ecab120.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Prop_Cattail_1.obj-4911e994171db7fe56ad782a5ecab120.mesh"]
+
+source_file="res://external/modular_terrain_collections/Modular Terrain Hilly/Prop_Cattail_1.obj"
+dest_files=["res://.godot/imported/Prop_Cattail_1.obj-4911e994171db7fe56ad782a5ecab120.mesh", "res://.godot/imported/Prop_Cattail_1.obj-4911e994171db7fe56ad782a5ecab120.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bv0ya3lbnfh64"
+path="res://.godot/imported/roof-flat-patch-large.obj-97642d56381b380b7610932535b28bba.mesh"
+
+[deps]
+
+files=["res://.godot/imported/roof-flat-patch-large.obj-97642d56381b380b7610932535b28bba.mesh"]
+
+source_file="res://external/kenney_building-kit/Models/OBJ format/roof-flat-patch-large.obj"
+dest_files=["res://.godot/imported/roof-flat-patch-large.obj-97642d56381b380b7610932535b28bba.mesh", "res://.godot/imported/roof-flat-patch-large.obj-97642d56381b380b7610932535b28bba.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

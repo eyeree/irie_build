@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cjd0rodtk8u7q"
+path="res://.godot/imported/Prop_Bridge_Rope_End.obj-83727245db9ceab927f0c15a275620ed.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Prop_Bridge_Rope_End.obj-83727245db9ceab927f0c15a275620ed.mesh"]
+
+source_file="res://external/modular_terrain_collections/Modular Terrain Cliff/Prop_Bridge_Rope_End.obj"
+dest_files=["res://.godot/imported/Prop_Bridge_Rope_End.obj-83727245db9ceab927f0c15a275620ed.mesh", "res://.godot/imported/Prop_Bridge_Rope_End.obj-83727245db9ceab927f0c15a275620ed.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

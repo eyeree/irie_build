@@ -1,0 +1,1 @@
+The external directory contains modular building kits downloaded from popular free game art web sties. They have been imported into IrieBuild object sets found in the buildables folder.

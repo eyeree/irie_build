@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://blev27f0vna8y"
+path="res://.godot/imported/Plate_Curve_01.obj-4ed7b85ab5e7ce578779398b4a0f5009.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Plate_Curve_01.obj-4ed7b85ab5e7ce578779398b4a0f5009.mesh"]
+
+source_file="res://external/Medieval Town (base)/Models/Plate_Curve_01.obj"
+dest_files=["res://.godot/imported/Plate_Curve_01.obj-4ed7b85ab5e7ce578779398b4a0f5009.mesh", "res://.godot/imported/Plate_Curve_01.obj-4ed7b85ab5e7ce578779398b4a0f5009.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

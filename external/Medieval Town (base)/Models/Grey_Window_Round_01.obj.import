@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://krmapdpmsovp"
+path="res://.godot/imported/Grey_Window_Round_01.obj-fa7aa77d9bc9965ab987f260ce399f84.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Grey_Window_Round_01.obj-fa7aa77d9bc9965ab987f260ce399f84.mesh"]
+
+source_file="res://external/Medieval Town (base)/Models/Grey_Window_Round_01.obj"
+dest_files=["res://.godot/imported/Grey_Window_Round_01.obj-fa7aa77d9bc9965ab987f260ce399f84.mesh", "res://.godot/imported/Grey_Window_Round_01.obj-fa7aa77d9bc9965ab987f260ce399f84.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

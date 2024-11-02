@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cj88dvc54ml15"
+path="res://.godot/imported/bed-double.obj-af1df918d7518fb466d08e99e543b6dc.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bed-double.obj-af1df918d7518fb466d08e99e543b6dc.mesh"]
+
+source_file="res://external/kenney_space-station-kit/Models/OBJ format/bed-double.obj"
+dest_files=["res://.godot/imported/bed-double.obj-af1df918d7518fb466d08e99e543b6dc.mesh", "res://.godot/imported/bed-double.obj-af1df918d7518fb466d08e99e543b6dc.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

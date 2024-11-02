@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cy0c5rrv00ro8"
+path="res://.godot/imported/chair-cushion.obj-afdd2a4869c1a10e5f399de9843fd95b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/chair-cushion.obj-afdd2a4869c1a10e5f399de9843fd95b.mesh"]
+
+source_file="res://external/kenney_space-station-kit/Models/OBJ format/chair-cushion.obj"
+dest_files=["res://.godot/imported/chair-cushion.obj-afdd2a4869c1a10e5f399de9843fd95b.mesh", "res://.godot/imported/chair-cushion.obj-afdd2a4869c1a10e5f399de9843fd95b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

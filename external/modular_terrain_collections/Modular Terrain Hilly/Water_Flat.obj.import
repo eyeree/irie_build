@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c4okdk1a04abc"
+path="res://.godot/imported/Water_Flat.obj-6e5a35ec57b9c3d7584a912b29e7e960.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Water_Flat.obj-6e5a35ec57b9c3d7584a912b29e7e960.mesh"]
+
+source_file="res://external/modular_terrain_collections/Modular Terrain Hilly/Water_Flat.obj"
+dest_files=["res://.godot/imported/Water_Flat.obj-6e5a35ec57b9c3d7584a912b29e7e960.mesh", "res://.godot/imported/Water_Flat.obj-6e5a35ec57b9c3d7584a912b29e7e960.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

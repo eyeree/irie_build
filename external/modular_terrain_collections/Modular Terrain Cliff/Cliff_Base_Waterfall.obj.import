@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bth53is7fxies"
+path="res://.godot/imported/Cliff_Base_Waterfall.obj-003b81d827bd8df638b679c1c8959fba.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Cliff_Base_Waterfall.obj-003b81d827bd8df638b679c1c8959fba.mesh"]
+
+source_file="res://external/modular_terrain_collections/Modular Terrain Cliff/Cliff_Base_Waterfall.obj"
+dest_files=["res://.godot/imported/Cliff_Base_Waterfall.obj-003b81d827bd8df638b679c1c8959fba.mesh", "res://.godot/imported/Cliff_Base_Waterfall.obj-003b81d827bd8df638b679c1c8959fba.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

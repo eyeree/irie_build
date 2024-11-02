@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://2ho8axnrqoqp"
+path="res://.godot/imported/Castle_Wall_01.obj-e2affc5f96270bbf43e3d4e7aee39e71.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Castle_Wall_01.obj-e2affc5f96270bbf43e3d4e7aee39e71.mesh"]
+
+source_file="res://external/Medieval Town (base)/Models/Castle_Wall_01.obj"
+dest_files=["res://.godot/imported/Castle_Wall_01.obj-e2affc5f96270bbf43e3d4e7aee39e71.mesh", "res://.godot/imported/Castle_Wall_01.obj-e2affc5f96270bbf43e3d4e7aee39e71.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

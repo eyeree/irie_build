@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b6yr86qnr88kq"
+path="res://.godot/imported/Wood_Wall_Double_Cross_01.obj-a38d6ff30a9ab96c4327576fbe868750.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Wood_Wall_Double_Cross_01.obj-a38d6ff30a9ab96c4327576fbe868750.mesh"]
+
+source_file="res://external/Medieval Town (base)/Models/Wood_Wall_Double_Cross_01.obj"
+dest_files=["res://.godot/imported/Wood_Wall_Double_Cross_01.obj-a38d6ff30a9ab96c4327576fbe868750.mesh", "res://.godot/imported/Wood_Wall_Double_Cross_01.obj-a38d6ff30a9ab96c4327576fbe868750.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

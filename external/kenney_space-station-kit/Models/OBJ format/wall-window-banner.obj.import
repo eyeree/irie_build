@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cfp7k08gc2a42"
+path="res://.godot/imported/wall-window-banner.obj-5c3b5e6926ac7668c5fac8e8be03d0ab.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wall-window-banner.obj-5c3b5e6926ac7668c5fac8e8be03d0ab.mesh"]
+
+source_file="res://external/kenney_space-station-kit/Models/OBJ format/wall-window-banner.obj"
+dest_files=["res://.godot/imported/wall-window-banner.obj-5c3b5e6926ac7668c5fac8e8be03d0ab.mesh", "res://.godot/imported/wall-window-banner.obj-5c3b5e6926ac7668c5fac8e8be03d0ab.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://difx8w7n87rbk"
+path="res://.godot/imported/Sand_Side_Transition_From_Gentle.obj-e219ec374ff2e31f62b81ffef4c695c5.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Sand_Side_Transition_From_Gentle.obj-e219ec374ff2e31f62b81ffef4c695c5.mesh"]
+
+source_file="res://external/modular_terrain_collections/Modular Terrain Beach/Sand_Side_Transition_From_Gentle.obj"
+dest_files=["res://.godot/imported/Sand_Side_Transition_From_Gentle.obj-e219ec374ff2e31f62b81ffef4c695c5.mesh", "res://.godot/imported/Sand_Side_Transition_From_Gentle.obj-e219ec374ff2e31f62b81ffef4c695c5.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

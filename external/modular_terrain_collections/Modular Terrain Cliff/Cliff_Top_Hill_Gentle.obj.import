@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cgp6xahkexekj"
+path="res://.godot/imported/Cliff_Top_Hill_Gentle.obj-4d7c3e72cc25020b12e0db92cf3bd86d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Cliff_Top_Hill_Gentle.obj-4d7c3e72cc25020b12e0db92cf3bd86d.mesh"]
+
+source_file="res://external/modular_terrain_collections/Modular Terrain Cliff/Cliff_Top_Hill_Gentle.obj"
+dest_files=["res://.godot/imported/Cliff_Top_Hill_Gentle.obj-4d7c3e72cc25020b12e0db92cf3bd86d.mesh", "res://.godot/imported/Cliff_Top_Hill_Gentle.obj-4d7c3e72cc25020b12e0db92cf3bd86d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

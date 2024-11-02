@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ude0p6qpq3o8"
+path="res://.godot/imported/Prop_Fence_Hill_Sharp.obj-de3cffaaaeba882612a111783037c596.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Prop_Fence_Hill_Sharp.obj-de3cffaaaeba882612a111783037c596.mesh"]
+
+source_file="res://external/modular_terrain_collections/Modular Terrain Hilly/Prop_Fence_Hill_Sharp.obj"
+dest_files=["res://.godot/imported/Prop_Fence_Hill_Sharp.obj-de3cffaaaeba882612a111783037c596.mesh", "res://.godot/imported/Prop_Fence_Hill_Sharp.obj-de3cffaaaeba882612a111783037c596.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

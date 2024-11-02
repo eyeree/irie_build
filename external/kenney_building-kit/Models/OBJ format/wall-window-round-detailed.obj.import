@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cxamtjhuwxvym"
+path="res://.godot/imported/wall-window-round-detailed.obj-a6da0255d907f968d2956c4c4121e099.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wall-window-round-detailed.obj-a6da0255d907f968d2956c4c4121e099.mesh"]
+
+source_file="res://external/kenney_building-kit/Models/OBJ format/wall-window-round-detailed.obj"
+dest_files=["res://.godot/imported/wall-window-round-detailed.obj-a6da0255d907f968d2956c4c4121e099.mesh", "res://.godot/imported/wall-window-round-detailed.obj-a6da0255d907f968d2956c4c4121e099.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://de2ot62s6qvup"
+path="res://.godot/imported/Cliff_Mid_Corner_Outer_Sm.obj-0adf3eb0608af830bef64a0a3ab72319.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Cliff_Mid_Corner_Outer_Sm.obj-0adf3eb0608af830bef64a0a3ab72319.mesh"]
+
+source_file="res://external/modular_terrain_collections/Modular Terrain Cliff/Cliff_Mid_Corner_Outer_Sm.obj"
+dest_files=["res://.godot/imported/Cliff_Mid_Corner_Outer_Sm.obj-0adf3eb0608af830bef64a0a3ab72319.mesh", "res://.godot/imported/Cliff_Mid_Corner_Outer_Sm.obj-0adf3eb0608af830bef64a0a3ab72319.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

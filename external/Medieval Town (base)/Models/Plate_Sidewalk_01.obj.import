@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bcusttnmq8tte"
+path="res://.godot/imported/Plate_Sidewalk_01.obj-2c13faac30c2bd09b2173926bbb6cedb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Plate_Sidewalk_01.obj-2c13faac30c2bd09b2173926bbb6cedb.mesh"]
+
+source_file="res://external/Medieval Town (base)/Models/Plate_Sidewalk_01.obj"
+dest_files=["res://.godot/imported/Plate_Sidewalk_01.obj-2c13faac30c2bd09b2173926bbb6cedb.mesh", "res://.godot/imported/Plate_Sidewalk_01.obj-2c13faac30c2bd09b2173926bbb6cedb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

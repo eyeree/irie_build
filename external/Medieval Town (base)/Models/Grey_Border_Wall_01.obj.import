@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d1ywmgo5blmda"
+path="res://.godot/imported/Grey_Border_Wall_01.obj-4aa91e4b894457c9fbb9b45c4ad83050.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Grey_Border_Wall_01.obj-4aa91e4b894457c9fbb9b45c4ad83050.mesh"]
+
+source_file="res://external/Medieval Town (base)/Models/Grey_Border_Wall_01.obj"
+dest_files=["res://.godot/imported/Grey_Border_Wall_01.obj-4aa91e4b894457c9fbb9b45c4ad83050.mesh", "res://.godot/imported/Grey_Border_Wall_01.obj-4aa91e4b894457c9fbb9b45c4ad83050.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

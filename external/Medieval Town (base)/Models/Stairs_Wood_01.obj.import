@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://f422jjkmwg2o"
+path="res://.godot/imported/Stairs_Wood_01.obj-082a5af3195758ed1ff0c4a4d07feb3c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Stairs_Wood_01.obj-082a5af3195758ed1ff0c4a4d07feb3c.mesh"]
+
+source_file="res://external/Medieval Town (base)/Models/Stairs_Wood_01.obj"
+dest_files=["res://.godot/imported/Stairs_Wood_01.obj-082a5af3195758ed1ff0c4a4d07feb3c.mesh", "res://.godot/imported/Stairs_Wood_01.obj-082a5af3195758ed1ff0c4a4d07feb3c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

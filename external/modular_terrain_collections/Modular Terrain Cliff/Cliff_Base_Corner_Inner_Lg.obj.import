@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cue7335uub4j8"
+path="res://.godot/imported/Cliff_Base_Corner_Inner_Lg.obj-d1912f999920fc0c991aef1609b654eb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Cliff_Base_Corner_Inner_Lg.obj-d1912f999920fc0c991aef1609b654eb.mesh"]
+
+source_file="res://external/modular_terrain_collections/Modular Terrain Cliff/Cliff_Base_Corner_Inner_Lg.obj"
+dest_files=["res://.godot/imported/Cliff_Base_Corner_Inner_Lg.obj-d1912f999920fc0c991aef1609b654eb.mesh", "res://.godot/imported/Cliff_Base_Corner_Inner_Lg.obj-d1912f999920fc0c991aef1609b654eb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

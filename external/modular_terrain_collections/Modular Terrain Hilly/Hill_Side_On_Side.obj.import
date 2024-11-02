@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://5wlrkigbpd2n"
+path="res://.godot/imported/Hill_Side_On_Side.obj-48598ee3d36c1c69454e19eb21ff1931.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Hill_Side_On_Side.obj-48598ee3d36c1c69454e19eb21ff1931.mesh"]
+
+source_file="res://external/modular_terrain_collections/Modular Terrain Hilly/Hill_Side_On_Side.obj"
+dest_files=["res://.godot/imported/Hill_Side_On_Side.obj-48598ee3d36c1c69454e19eb21ff1931.mesh", "res://.godot/imported/Hill_Side_On_Side.obj-48598ee3d36c1c69454e19eb21ff1931.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

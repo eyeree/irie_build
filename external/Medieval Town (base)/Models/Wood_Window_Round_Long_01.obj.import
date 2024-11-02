@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://brjqgck52hvi4"
+path="res://.godot/imported/Wood_Window_Round_Long_01.obj-962efe2fcefbbb62d6b33e8506d1497b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Wood_Window_Round_Long_01.obj-962efe2fcefbbb62d6b33e8506d1497b.mesh"]
+
+source_file="res://external/Medieval Town (base)/Models/Wood_Window_Round_Long_01.obj"
+dest_files=["res://.godot/imported/Wood_Window_Round_Long_01.obj-962efe2fcefbbb62d6b33e8506d1497b.mesh", "res://.godot/imported/Wood_Window_Round_Long_01.obj-962efe2fcefbbb62d6b33e8506d1497b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cimfrpki3yhkh"
+path="res://.godot/imported/Plate_Pavement_01.obj-68ea88a7061a6194e104fa3630f943dd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Plate_Pavement_01.obj-68ea88a7061a6194e104fa3630f943dd.mesh"]
+
+source_file="res://external/Medieval Town (base)/Models/Plate_Pavement_01.obj"
+dest_files=["res://.godot/imported/Plate_Pavement_01.obj-68ea88a7061a6194e104fa3630f943dd.mesh", "res://.godot/imported/Plate_Pavement_01.obj-68ea88a7061a6194e104fa3630f943dd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
