@@ -12,7 +12,6 @@ const GROUP_COLORS = {
 const SPHERE_SIZE = 0.06
 const SPHERE_SEGMENTS = 16
 
-var normal: Vector3
 var group: String
 var is_surface: bool
 
@@ -20,9 +19,8 @@ var _sphere: CSGSphere3D
 
 static var _materials: Dictionary = {}
 
-func _init(pos: Vector3 = Vector3.ZERO, norm: Vector3 = Vector3.UP, grp: String = "default", surface: bool = false):
+func _init(pos: Vector3 = Vector3.ZERO, grp: String = "default", surface: bool = false):
 	position = pos
-	normal = norm
 	group = grp
 	is_surface = surface
 	_create_visual()

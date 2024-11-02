@@ -22,6 +22,11 @@ var preview_item: IrieBuildItem
 var camera: Camera3D
 var snap_points_visible: bool = true
 
+# Rotation control
+var rotation_x: float = 0.0
+var rotation_y: float = 0.0
+var rotation_z: float = 0.0
+
 # Cache of nearby items for efficient snap point checking
 var _nearby_items: Array[IrieBuildItem] = []
 var _last_mouse_position: Vector2
@@ -38,6 +43,31 @@ func start_build(item: IrieBuildItem):
 		add_child(preview_item)
 		_update_nearby_items()
 		build_started.emit(item)
+
+# Rotation control API
+func set_rotation_x(angle: float):
+	rotation_x = angle
+	if preview_item:
+		preview_item.rotation.x = angle
+
+func set_rotation_y(angle: float):
+	rotation_y = angle
+	if preview_item:
+		preview_item.rotation.y = angle
+
+func set_rotation_z(angle: float):
+	rotation_z = angle
+	if preview_item:
+		preview_item.rotation.z = angle
+
+func rotate_x(delta: float):
+	set_rotation_x(rotation_x + delta)
+
+func rotate_y(delta: float):
+	set_rotation_y(rotation_y + delta)
+
+func rotate_z(delta: float):
+	set_rotation_z(rotation_z + delta)
 		
 func cancel_build():
 	if current_item:
@@ -49,9 +79,10 @@ func cancel_build():
 
 func complete_build() -> bool:
 	if current_item and preview_item:
-		# Create final item at preview location
+		# Create final item at preview location and rotation
 		var final_item = current_item.duplicate()
-		final_item.global_transform = preview_item.global_transform
+		final_item.global_position = preview_item.global_position
+		final_item.rotation = Vector3(rotation_x, rotation_y, rotation_z)
 		get_parent().add_child(final_item)
 		
 		# Clean up
@@ -95,17 +126,17 @@ func _update_preview_position():
 			var source_point = snap_result[0]
 			var target_point = snap_result[1]
 			
-			# Calculate final position and rotation
-			var rotation = _calculate_snap_rotation(source_point, target_point)
-			var position = target_point.global_position - source_point.position.rotated(Vector3.UP, rotation.y)
+			# Calculate final position based on snap points
+			var position = target_point.global_position - source_point.position.rotated(Vector3.UP, rotation_y)
 			
 			preview_item.global_position = position
-			preview_item.global_rotation = rotation
+			preview_item.rotation = Vector3(rotation_x, rotation_y, rotation_z)
 			
 			snap_point_found.emit(source_point, target_point)
 		else:
 			# No snap point found, just place at hit point
 			preview_item.global_position = hit_point
+			preview_item.rotation = Vector3(rotation_x, rotation_y, rotation_z)
 			snap_point_lost.emit()
 
 func _find_nearest_snap_point(position: Vector3) -> Array:
@@ -144,18 +175,6 @@ func _find_nearest_snap_point(position: Vector3) -> Array:
 	if nearest_source:
 		return [nearest_source, nearest_target]
 	return []
-
-func _calculate_snap_rotation(source: IrieBuildSnapPoint, target: IrieBuildSnapPoint) -> Vector3:
-	# Calculate rotation to align source normal with target normal
-	var up = Vector3.UP
-	var angle = source.normal.angle_to(target.normal)
-	var axis = source.normal.cross(target.normal)
-	
-	if axis.length() < 0.001:
-		# Normals are parallel, no rotation needed
-		return Vector3.ZERO
-	
-	return axis.normalized() * angle
 
 func _update_nearby_items():
 	_nearby_items.clear()

@@ -154,35 +154,31 @@ func _add_panel_snap_points():
 	
 	if size.x <= 0.2 * max(size.y, size.z):
 		short_axis = "x"
-		short_value = 0 # half_size.x
+		short_value = 0
 		long_axes = ["y", "z"]
 	elif size.y <= 0.2 * max(size.x, size.z):
 		short_axis = "y"
-		short_value = 0 # half_size.y
+		short_value = 0
 		long_axes = ["x", "z"]
 	elif size.z <= 0.2 * max(size.x, size.y):
 		short_axis = "z"
-		short_value = 0 # half_size.z
+		short_value = 0
 		long_axes = ["x", "y"]
 	
 	# Add snap points at corners
 	for i in [-1, 1]:
 		for j in [-1, 1]:
 			var pos = Vector3.ZERO
-			var normal = Vector3.ZERO
 			
 			match short_axis:
 				"x":
 					pos = Vector3(short_value, i * half_size.y, j * half_size.z)
-					normal = Vector3.RIGHT if short_value > 0 else Vector3.LEFT
 				"y":
 					pos = Vector3(i * half_size.x, short_value, j * half_size.z)
-					normal = Vector3.UP if short_value > 0 else Vector3.DOWN
 				"z":
 					pos = Vector3(i * half_size.x, j * half_size.y, short_value)
-					normal = Vector3.BACK if short_value > 0 else Vector3.FORWARD
 			
-			add_snap_point(pos, normal)
+			add_snap_point(pos)
 
 func _add_pole_snap_points():
 	var half_size = size / 2
@@ -205,14 +201,14 @@ func _add_pole_snap_points():
 	# Add snap points at ends
 	match long_axis:
 		"x":
-			add_snap_point(Vector3(long_value, 0, 0), Vector3.RIGHT)
-			add_snap_point(Vector3(-long_value, 0, 0), Vector3.LEFT)
+			add_snap_point(Vector3(long_value, 0, 0))
+			add_snap_point(Vector3(-long_value, 0, 0))
 		"y":
-			add_snap_point(Vector3(0, long_value, 0), Vector3.UP)
-			add_snap_point(Vector3(0, -long_value, 0), Vector3.DOWN)
+			add_snap_point(Vector3(0, long_value, 0))
+			add_snap_point(Vector3(0, -long_value, 0))
 		"z":
-			add_snap_point(Vector3(0, 0, long_value), Vector3.BACK)
-			add_snap_point(Vector3(0, 0, -long_value), Vector3.FORWARD)
+			add_snap_point(Vector3(0, 0, long_value))
+			add_snap_point(Vector3(0, 0, -long_value))
 
 func _add_box_snap_points():
 	var half_size = size / 2
@@ -227,13 +223,11 @@ func _add_box_snap_points():
 					y * half_size.y,
 					z * half_size.z
 				)
-				# Use the corner's position normalized as the normal
-				var normal = pos.normalized()
-				add_snap_point(pos, normal)
+				add_snap_point(pos)
 
-func add_snap_point(position: Vector3, normal: Vector3, group: String = "default"):
+func add_snap_point(position: Vector3, group: String = "default"):
 	prints('      add_snap_point', position)
-	var snap_point = IrieBuildSnapPoint.new(position, normal, group)
+	var snap_point = IrieBuildSnapPoint.new(position, group)
 	snap_points_node.add_child(snap_point)
 
 func get_snap_points() -> Array[IrieBuildSnapPoint]:
